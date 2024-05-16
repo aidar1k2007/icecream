@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>айс крим актабе</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="transparent-ice-cream-6284492f627fa3.2953340516528366554035.png" alt="Ice-cream Aktobe Logo">
+            <h1>ICE CREAM akt0bE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Catalogy</a></li>
+                <li><a href="#about">Company</a></li>
+                <li><a href="#why-us">Why us?</a></li>
+                <li><a href="#reviews">reviews</a></li>
+                <li><a href="#contact-us">Message</a></li>
+                <li><a href="#contacts">contact-us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="Ice-Cream-PNG-Background-Image.png" alt="Новинки">
+                <h2>Клубничное мороженое</h2>
+            </div>
+            <div class="slide">
+                <img src="Ice-Cream-PNG-Download-Image.png" alt="Мороженое">
+                <h2>Ягодный микс</h2>
+            </div>
+            <div class="slide">
+                <img src="Ice-Cream-PNG-Image.png" alt="Пироги и пирожки">
+                <h2>Мороженое 3 шарика(фисташка,малина)</h2>
+            </div>
+            <div class="slide">
+                <img src="Ice-Cream-PNG-Photo.png" alt="Булочки и баранки">
+                <h2>Малина В рожке</h2>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="banner">
+        <h2>Сайт магазина МОРОЖЕНОГО! Из качественных продуктов. Скидки 50% каждую пятницу! Неповторимый вкус! Постоянное пополнение товара. Лучшие пекари. Скидки после 18 часов. В нашем магазине вы найдете самые вкусные новинки мороженого.</h2>
+    </div>
+
+    <main>
+        <section id="catalog">
+            <h2>Вкусное и полезное мороженое</h2>
+            <div class="product">
+                <h3>Клубничное мороженое</h3>
+                <img src="Ice-Cream-PNG-Background-Image.png" alt="Клубничное мороженое" width="200" height="200">
+                <p>СОСТАВ: молоко, сливки, сахар, клубничый ароматизатор,  сухое молоко, стабилизатор (гуаровая камедь, карагинан), эмульгатор (моно- и диглицериды жирных кислот), натуральный ванильный экстракт.</p>
+                <p>1250тг.</p>
+                <button>Заказать</button>
+            </div>
+            <div class="product">
+                <h3>Ягодный Микс(НОВИНКА)</h3>
+                <img src="Ice-Cream-PNG-Download-Image.png"Мороженое Золотой Стандарт" width="200" height="200">
+                <p>СОСТАВ: молоко ,сливки, сахар, сухое молоко, экстракт малины,ежевики, стабилизатор (кокс,ягоды), .</p>
+                <p>1499 тг.</p>
+                <button>Заказать</button>
+            </div>
+            <div class="product">
+                <h3>Мороженое *Alpen Gold* молочный шоколад</h3>
+                <img src="100030428912b0.webp" alt="Пломбир" width="200" height="200">
+                <p>СОСТАВ: Нейзвестно</p>
+                <p>570 тг.</p>
+                <button>Заказать</button>
+            </div>
+        </section>
+
+        <section id="contact-us">
+            <h2>Нужна помощь?</h2>
+            <p>НАПИШИТЕ НАМ<br>Наш менеджер Айдар не ответит вам в ближайшее время</p>
+            <form>
+                <input type="text" name="name" placeholder="Введите имя" required>
+                <input type="email" name="email" placeholder="Введите email" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>ICE-CREAM AKTOBE<br>ООО «ICE-CREAM AKTOBE», 123456, г.Актобе, ул. Центральная 1, офис 1<br>ИНН 1234567890 ОГРН 123456789012</p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+        <p>8 800 333 22 33<br>Звонок по Казахстану бесплатный</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
